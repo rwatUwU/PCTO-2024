@@ -14,4 +14,5 @@ int main (){
     else{
         printf("%d non è multiplo di %d.\n", a,b);
     }
+    return 0;
 }

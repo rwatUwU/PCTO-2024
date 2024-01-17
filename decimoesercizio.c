@@ -13,10 +13,10 @@ int main (){
     scanf("%f", &c);
     if (a+b>c){
         if (b+c>a){
-            }
-            if (a+c>b){
+        }
+        if (a+c>b){
                 printf("I tre segmenti possono formare un triangolo.\n");
-            }
+        }
     }
     else{
         printf("I tre segmenti non possono formare un triangolo\n");

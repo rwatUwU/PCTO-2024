@@ -13,24 +13,24 @@ int main (){
     scanf("%f", &c);
     if (a+b>c){
         if (b+c>a){
-            }
-            if (a+c>b){
-                }
-                if (a==b==c){
-                    printf("Il triangolo è equilatero.\n");
-                }
-                else if (a==b){
-                    printf("Il triangolo è isoscele.\n");
-                }
-                else if (b==c){
-                    printf("Il triangolo è isoscele.\n");
-                }
-                else if (c==a){
-                    printf("Il triangolo è isoscele.\n");
-                }
-                else{
-                    printf("Il triangolo è scaleno.\n");
-                }
+        }
+        if (a+c>b){
+        }
+        if (a==b==c){
+            printf("Il triangolo è equilatero.\n");
+        }
+        else if (a==b){
+            printf("Il triangolo è isoscele.\n");
+        }
+        else if (b==c){
+            printf("Il triangolo è isoscele.\n");
+        }
+        else if (c==a){
+            printf("Il triangolo è isoscele.\n");
+        }
+        else{
+            printf("Il triangolo è scaleno.\n");
+        }
     }
     else{
         printf("I tre segmenti non possono formare un triangolo.\n");

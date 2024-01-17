@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void calcolaCubo(){
+void calcolaCubo (){
     float cubo;
     float numero;
 

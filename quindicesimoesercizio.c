@@ -15,7 +15,8 @@ int main (){
         }
         if(n==i){
             printf("è un numero primo\n");
-        }else{
+        }
+        else{
             printf("non è un numero primo\n");
         }
     }

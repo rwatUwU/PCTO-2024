@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){ 
+int main(){
+     
     printf("LAZIO MERDA\n");
     return 0;
 }

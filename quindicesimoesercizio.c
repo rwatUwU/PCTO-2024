@@ -8,7 +8,8 @@ int main (){
     scanf("%d", &n);
     if(n==1){
         printf("è un numero primo\n");
-    }else{
+    }
+    else{
         while(n%i!=0){
             i = i+1;
         }

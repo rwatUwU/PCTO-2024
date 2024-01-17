@@ -11,9 +11,11 @@ void calcolaCubo(){
 }
 
 int main (){
-    calcolaCubo();
-    calcolaCubo();
-    calcolaCubo();
-    calcolaCubo();
+    int i=0;
+
+    while(i<4){
+        calcolaCubo();
+        i=i+1;
+    }
     return 0;
 }

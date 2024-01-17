@@ -21,5 +21,5 @@ int main (){
     else{
         printf("I tre segmenti non possono formare un triangolo\n");
     }
-return 0;
+    return 0;
 }

@@ -2,18 +2,21 @@
 
 int main (){
     int n;
-    int i = 2;
-
-    printf("Inserisci un numero:\n");
+    int i=2;
+        
+    printf("inserisci un numero:\n");
     scanf("%d", &n);
-    while(n%i!=0){
-        i++;
-    }
-    if (n==i){
-        printf("Il numero è primo.\n");
-    }
-    else{
-        printf("Il numero non è primo.\n");
+    if(n==1){
+        printf("è un numero primo\n");
+    }else{
+        while(n%i!=0){
+            i = i+1;
+        }
+        if(n==i){
+            printf("è un numero primo\n");
+        }else{
+            printf("non è un numero primo\n");
+        }
     }
     return 0;
 }

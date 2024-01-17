@@ -15,7 +15,7 @@ int main (){
 
     while(i<4){
         calcolaCubo();
-        i=i+1;
+        i++;
     }
     return 0;
 }

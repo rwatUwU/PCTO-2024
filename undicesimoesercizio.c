@@ -30,11 +30,11 @@ int main (){
                     printf("Il triangolo è scaleno.\n");
                 }
             }
-            else {
+            else{
                 printf("I tre segmenti non possono formare un triangolo.\n");
             }
         }
-        else {
+        else{
         printf("I tre segmenti non possono formare un triangolo.\n");
         }
     }

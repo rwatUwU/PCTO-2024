@@ -7,7 +7,7 @@ int main (){
 
     libero[0]='C'
     printf("%s\n", parola);
-    ammette
+    printf("%s\n", numerico);
     printf("%s\n", libero);
     return 0;
 }

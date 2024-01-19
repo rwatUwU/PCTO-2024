@@ -8,15 +8,13 @@ int main (){
     scanf("%d", &n);
     if(n==1){
         printf("è un numero primo\n");
-    }
-    else{
+    }else{
         while(n%i!=0){
             i = i+1;
         }
         if(n==i){
             printf("è un numero primo\n");
-        }
-        else{
+        }else{
             printf("non è un numero primo\n");
         }
     }

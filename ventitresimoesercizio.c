@@ -13,6 +13,6 @@ int main (){
     int y=7;
 
     cambio(&x, &y);
-    printf("%d\n%d\n", x, y); 
+    printf("x=%d\ny=%d\n", x, y); 
     return 0;
 }

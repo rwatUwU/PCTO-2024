@@ -6,7 +6,7 @@ int main (){
 
     printf("Inserisci un testo in minuscolo: ");
     printf("%s \n", stringa);
-    scanf("%s[^\t\n]", stringa);
+    scanf("%[^\t\n]s", stringa);
     i = 0;
     while (stringa[i] != '\0'){
         if (97 <= stringa[i] && stringa[i] <=122){
